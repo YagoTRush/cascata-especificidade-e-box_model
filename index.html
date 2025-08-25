@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascata, especificidade e box model</title>
+</head>
+<body>
+    <header>
+        <h1>Cascata, Especificidade e Box model</h1>
+    </header>
+
+    <main>
+            <div class="cascata">
+                <h2>O que é a Regra da Cascata?</h2>
+
+                <p>A regra da cascata define qual elemento do site será estilizado pela ordem e peso </p>
+
+            </div>
+
+            <div class="especificidade">
+                <h2>O que é Especificidade?</h2>
+
+                <p>A especificidade define qual elemento terá mais peso</p>
+            </div>
+
+            <strong>Ex.:</strong>
+
+            <img src="exemplo-cascata.JPG" alt="exemplo do codigo">
+
+            <div class="combin-pseudoclass">
+                <h2>O que são combinadores e pseudoclasses?</h2>
+
+                <p>Combinadores são formas de relacionar seletores entre si para aplicar estilos com base na estrutura do HTML. Pseudoclasses são palavras-chave precedidas por dois-pontos (:) que você adiciona a um seletor para estilizar elementos com base em seu estado, posição ou interação.</p>
+
+                <h3>Tipos de combinadores</h3>
+
+                <ul>
+                    <li>
+                        Combinador descendente ( — espaço): Seleciona todos os elementos filhos, netos etc. de um elemento.
+                    </li>
+                    <li>
+                        Combinador de filho direto (>): Seleciona apenas os filhos diretos de um elemento.
+                    </li>
+                    <li>
+                        Combinador de irmão adjacente (+): Seleciona o primeiro elemento que vem logo após um outro, no mesmo nível (irmão).
+                    </li>
+                    <li>
+                        Combinador de irmãos gerais (~): Seleciona todos os elementos irmãos que seguem um determinado elemento (não só o primeiro).
+                    </li>
+                </ul>
+
+                <h3>Tipos de Pseudoclasses:</h3>
+
+                <ul>
+                    <li>
+                        :first-child — Primeiro filho de seu pai.
+                    </li>
+                    <li>
+                        :last-child — Último filho.
+                    </li>
+                    <li>
+                        :nth-child(n) — Seleciona o n-ésimo filho.
+                    </li>
+                    <li>
+                        :nth-of-type(n) — Seleciona o n-ésimo elemento de um tipo específico.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="displays">
+                <h2>Display Block e Inline</h2>
+
+                <h3>display: inline</h3>
+
+                <ul>
+                    <li> Não quebra linha</li>
+                    <li>Ocupa só o tamanho do conteúdo</li>
+                    <li>Ignora width e height</li>
+                    <li>margin e padding verticais têm efeito limitado</li>
+                    <li>Ex: (span), (a)</li>
+                </ul>
+
+                <h3>display: Block</h3>
+                
+                <ul>
+                    <li>Sempre começa em nova linha</li>
+                    <li>Ocupa toda a largura disponível</li>
+                    <li>Aceita width, height, margin e padding normalmente</li>
+                    <li>Ex: (div), (p), (h1)</h1></li>
+                </ul>
+            </div>
+
+            <div class="boxmodel-short-suf">
+                <h2>O que são margin, padding e border?</h2>
+
+                <ul>
+                    <li>Padding: Espaço interno entre o conteúdo e a borda </li>
+                    <li>Border: A borda visível do elemento</li>
+                    <li>Margin: Espaço externo entre o elemento e outros</li>
+                </ul>
+
+                <h2>Shorthand (atalho) com 1, 2, 3 ou 4 valores</h2>
+
+                <img src="exemplo-shorthand.JPG" alt="exemplo de shorthand">
+
+                <ul>
+                    <li>1 valor: Aplica a todos os lados </li>
+                    <li>2 valores: primeiro valor em cima e em baixo; segundo valor se aplica aos lados </li>
+                    <li>3 valores: primeiro se aplica em cima, segundo se aplica aos lados, terceiro se aplica em baixo</li>
+                    <li>4 valores: primeiro se aplica em cima; segundo se aplica à direita; terceiro se aplica em baixo; quarto se aplica à esquerda </li>
+                </ul>
+            </div>
+
+            
+    </main>
+</body>
+</html>
