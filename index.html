@@ -3,33 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cascata, especificidade e box model</title>
 </head>
 <body>
     <header>
         <h1>Cascata, Especificidade e Box model</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#oqueecascata">O que é cascata?</a>
+                </li>
+                <li>
+                    <a href="#ooqueeespecificidade">O que é Especificidade?</a>
+                </li>
+                <li>
+                    <a href="#combinadoresepseud">O que são combinadores e pseudoclasses?</a>
+                </li>
+                <li>
+                    <a href="#displayblockeinline">Display Block e Inline</a>
+                </li>
+                <li>
+                    <a href="#marginetc">O que é margin, padding e border?</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
             <div class="cascata">
-                <h2>O que é a Regra da Cascata?</h2>
+                <h2 id="oqueecascata">O que é a Regra da Cascata?</h2>
 
                 <p>A regra da cascata define qual elemento do site será estilizado pela ordem e peso </p>
 
             </div>
 
             <div class="especificidade">
-                <h2>O que é Especificidade?</h2>
+                <h2 id="oqueeespecificidade">O que é Especificidade?</h2>
 
                 <p>A especificidade define qual elemento terá mais peso</p>
+
+                <p>Ex.:</p>
+
+                <img src="exemplo-cascata.JPG" alt="exemplo do codigo">
             </div>
 
-            <strong>Ex.:</strong>
-
-            <img src="exemplo-cascata.JPG" alt="exemplo do codigo">
+            
 
             <div class="combin-pseudoclass">
-                <h2>O que são combinadores e pseudoclasses?</h2>
+                <h2 id="combinadoresepseud">O que são combinadores e pseudoclasses?</h2>
 
                 <p>Combinadores são formas de relacionar seletores entre si para aplicar estilos com base na estrutura do HTML. Pseudoclasses são palavras-chave precedidas por dois-pontos (:) que você adiciona a um seletor para estilizar elementos com base em seu estado, posição ou interação.</p>
 
@@ -69,7 +91,7 @@
             </div>
 
             <div class="displays">
-                <h2>Display Block e Inline</h2>
+                <h2 id="displayblockeinline">Display Block e Inline</h2>
 
                 <h3>display: inline</h3>
 
@@ -92,7 +114,7 @@
             </div>
 
             <div class="boxmodel-short-suf">
-                <h2>O que são margin, padding e border?</h2>
+                <h2 id="marginetc">O que é margin, padding e border?</h2>
 
                 <ul>
                     <li>Padding: Espaço interno entre o conteúdo e a borda </li>
